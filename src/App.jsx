@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import '../src/App.css'
+import "../src/App.css";
 
 export default class App extends Component {
   constructor() {
     super();
-    this.state = ({ count: 0 });
+    this.state = { count: 0 };
   }
   render() {
     return (
